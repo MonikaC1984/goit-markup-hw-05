@@ -33,7 +33,7 @@
 
             <ul class="content-menu">
               <li>
-                <a href="./index.html" class="nav ck1">Agencja</a>
+                <a href="./index.html" class="nav nav-outline ck1">Agencja</a>
               </li>
               <li>
                 <a href="./portfolio.html" class="nav">Portfolio</a>
@@ -70,7 +70,21 @@
       <section class="background-image">
         <div class="container container-h1-button1">
           <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="button1">Zamów usługę</button>
+          <button type="button" class="button1" data-modal-open>
+            Zamów usługę
+          </button>
+
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button class="modal-button" data-modal-close>
+                <div class="btn-x">
+                  <svg width="11px" height="11px">
+                    <use xlink:href="./images/icons.svg#icon-Vector"></use>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -136,6 +150,7 @@
           <ul class="images-agencja">
             <li class="item-img">
               <img src="images/img.jpg" alt="laptop" width="370" height="294" />
+              <p>aplikacje komputerowe</p>
             </li>
             <li class="item-img">
               <img
@@ -144,6 +159,7 @@
                 width="370"
                 height="294"
               />
+              <p>aplikacje mobilne</p>
             </li>
             <li class="item-img">
               <img
@@ -152,6 +168,7 @@
                 width="370"
                 height="294"
               />
+              <p>rozwiązania graficzne</p>
             </li>
           </ul>
         </div>
@@ -304,43 +321,43 @@
           <ul class="clients">
             <li class="item-clients">
               <a href="">
-                <svg width="106px" height="60px">
-                  <use xlink:href="./images/icons.svg#icon-logo-1"></use>
+                <svg width="170px" height="92px">
+                  <use xlink:href="./images/icons.svg#icon-client-1"></use>
                 </svg>
               </a>
             </li>
             <li class="item-clients">
               <a href="">
-                <svg width="106px" height="60px">
-                  <use xlink:href="./images/icons.svg#icon-logo-2"></use>
+                <svg class="client" width="170px" height="92px">
+                  <use xlink:href="./images/icons.svg#icon-client-2"></use>
                 </svg>
               </a>
             </li>
             <li class="item-clients">
               <a href="">
-                <svg width="106px" height="60px">
-                  <use xlink:href="./images/icons.svg#icon-logo-3"></use>
+                <svg width="170px" height="92px">
+                  <use xlink:href="./images/icons.svg#icon-client-3"></use>
                 </svg>
               </a>
             </li>
             <li class="item-clients">
               <a href="">
-                <svg width="106px" height="60px">
-                  <use xlink:href="./images/icons.svg#icon-logo-4"></use>
+                <svg width="170px" height="92px">
+                  <use xlink:href="./images/icons.svg#icon-client-4"></use>
                 </svg>
               </a>
             </li>
             <li class="item-clients">
               <a href="">
-                <svg width="106px" height="60px">
-                  <use xlink:href="./images/icons.svg#icon-logo-5"></use>
+                <svg width="170px" height="92px">
+                  <use xlink:href="./images/icons.svg#icon-client-5"></use>
                 </svg>
               </a>
             </li>
             <li class="item-clients">
               <a href="">
-                <svg width="106px" height="60px">
-                  <use xlink:href="./images/icons.svg#icon-logo-6"></use>
+                <svg width="170px" height="92px">
+                  <use xlink:href="./images/icons.svg#icon-client-6"></use>
                 </svg>
               </a>
             </li>
@@ -404,5 +421,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
