@@ -399,7 +399,7 @@ p.p {
   background-color: var(--filter-color);
   border-radius: 4px;
   border-color: var(--filter-color);
-  transition-duration: background-color color border-color 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -430,7 +430,7 @@ p.p {
 
 .portfolio-item {
   flex-basis: calc((40 / 3));
-  transition-duration: box-shadow 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover {
@@ -506,7 +506,7 @@ p.p {
   text-decoration: none;
   list-style: none;
   padding-bottom: 9px;
-  transition-duration: color 250ms;
+  transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer:hover,
